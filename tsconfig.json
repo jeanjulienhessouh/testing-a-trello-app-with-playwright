@@ -31,11 +31,7 @@
         "cypress/fixture/*"
       ]
     },
-    "types": [
-      "cypress-real-events",
-      "node",
-      "cypress"
-    ],
+   
   },
   "include": [
     "cypress/**/*.ts",
