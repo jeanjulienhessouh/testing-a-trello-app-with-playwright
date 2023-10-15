@@ -23,13 +23,22 @@
     "paths": {
       "@/*": [
         "src/*"
+      ],
+      "@commands/*": [
+        "cypress/support/commands/*"
+      ],
+      "@fixtures/*": [
+        "cypress/fixture/*"
       ]
     },
     "types": [
-      "node"
-    ]
+      "cypress-real-events",
+      "node",
+      "cypress"
+    ],
   },
   "include": [
+    "cypress/**/*.ts",
     "src/**/*"
   ]
 }

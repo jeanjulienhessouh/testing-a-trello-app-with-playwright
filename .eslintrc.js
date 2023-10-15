@@ -6,7 +6,7 @@ module.exports = {
   },
   extends: [
     'plugin:vue/vue3-recommended',
-    'plugin:cypress/recommended',
+    // 'plugin:cypress/recommended',
     'plugin:tailwind/recommended'
   ],
   parserOptions: {
@@ -14,13 +14,13 @@ module.exports = {
     parser: '@typescript-eslint/parser',
     sourceType: 'module'
   },
-  plugins: ['vue', '@typescript-eslint', 'cypress', 'no-only-tests', 'tailwindcss'],
+  plugins: ['vue', '@typescript-eslint', 'tailwindcss'],
   rules: {
     'brace-style': ['error', 'stroustrup'],
-    'cypress/assertion-before-screenshot': 'warn',
-    'cypress/no-force': 'warn',
-    'cypress/no-pause': 'error',
-    'no-only-tests/no-only-tests': 'error',
+    // 'cypress/assertion-before-screenshot': 'warn',
+    // 'cypress/no-force': 'warn',
+    // 'cypress/no-pause': 'error',
+    //'no-only-tests/no-only-tests': 'error',
     'quotes': ['error', 'single'],
     'vue/multi-word-component-names': 'off',
     'vue/script-setup-uses-vars': 'error',
